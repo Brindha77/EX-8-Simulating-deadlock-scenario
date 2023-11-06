@@ -1,15 +1,26 @@
 # EX 8: Simulating deadlock scenario
-## Date: 
+
+## Date: 22.9.23
+
 ## AIM: 
 To simulate a scenario of deadlock in concurrent execution of transactions.
+
 ## PROCEDURE:
-1. Create a accounts table with the schema Accounts (account_id INT PRIMARY KEY,balance DECIMAL(10, 2))
-2. Insert the values in the accounts table
-3. Cteate a transaction T1 and T2
-4. T1 updates the balance by debiting 200
-5. Simulate a delay and make T2 inteferes T1
-6. T2 updates balance by debiting 150
-7. Simulate a delay and make T1 inteferes T2
+
+Step 1: Create a accounts table with the schema Accounts (account_id INT PRIMARY KEY,balance DECIMAL(10, 2))
+
+Step 2: Insert the values in the accounts table
+
+Step 3: Cteate a transaction T1 and T2
+
+Step 4: T1 updates the balance by debiting 200
+
+Step 5: Simulate a delay and make T2 inteferes T1
+
+Step 6: T2 updates balance by debiting 150
+
+Step 7: Simulate a delay and make T1 inteferes T2
+
 ## QUERY
 ```sql
 -- Creating Accounts table
